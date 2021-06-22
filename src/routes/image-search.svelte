@@ -35,14 +35,21 @@
 		<button id="search-btn" on:click={fetchUserSearch}><Search /></button>
 	</div>
 
-	{#if images.length > 0}
-		{#each images as image}
-			<UserImage {...image} />
-		{/each}
-	{/if}
+	<div id="image-search-grid">
+		{#if images.length > 0}
+			{#each images as image}
+				<UserImage {...image} />
+			{/each}
+		{/if}
+	</div>
 </div>
 
 <style>
+	#image-search-grid {
+		display: grid;
+		grid-template-columns: auto;
+		grid-row-gap: 2rem;
+	}
 	h3 {
 		text-align: center;
 		color: var(--subtitle);

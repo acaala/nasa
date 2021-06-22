@@ -9,7 +9,7 @@
 			<a href="/">Home</a>
 		</li>
 		<li>
-			<a href="/space">Image Search</a>
+			<a href="/image-search">Image Search</a>
 		</li>
 	</ul>
 </nav>

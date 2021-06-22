@@ -43,16 +43,16 @@
     }
 
     h2 {
-        color: rgba(229, 231, 235);
+        color: white;
     }
 
     h3 {
-        color: rgba(229, 231, 235, 0.774);
+        color: var(--subtitle);
     }
 
     p {
         line-height: 1.625;
-        color: rgba(156, 163, 175);
+        color: var(--body);
         display: none;
         width: 95%;
         font-size: 16px;
